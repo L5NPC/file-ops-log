@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "文件操作日志",
+    "description": "记录 Harness 智能体执行的每一次文件操作，并在 Web 界面中展示。点击侧边栏的“文件操作”图标打开：页面按时间倒序列出创建、修改、删除、移动、复制、读取和其他操作，支持按类型筛选、切换时间顺序，以及按路径、命令、工具和对话标题搜索。每一行都会显示执行该操作的对话，点击即可跳转到对应会话。它记录智能体的工具调用（write、edit、apply_patch、read、present、Office 工具，以及识别出的 rm、mv、cp、mkdir、重定向等 shell 文件命令；Windows 下识别 Remove-Item、Move-Item、Copy-Item、New-Item、Set-Content、Out-File 等 PowerShell 命令），写入 $DSH_HOME/plugin-data/file-ops-log/operations.jsonl，并把最新 2000 条提供给页面。Shell 命令依据命令文本识别，脚本内部或非常规写法的文件操作可能记录不到；不经过 Harness 工具管道的调用不会被记录。关闭插件后停止记录，并移除页面与图标。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

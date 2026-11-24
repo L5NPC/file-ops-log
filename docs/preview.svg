@@ -1,0 +1,28 @@
+<svg width="640" height="300" viewBox="0 0 640 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="36" width="560" height="228" rx="20" stroke="#8AA6C0" stroke-width="1.5"/>
+  <circle cx="66" cy="60" r="4" fill="#B9CBDD"/>
+  <circle cx="80" cy="60" r="4" fill="#B9CBDD"/>
+  <circle cx="94" cy="60" r="4" fill="#B9CBDD"/>
+  <path d="M84 96v148" stroke="#B9CBDD" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="84" cy="104" r="9" fill="#2F9E6E"/>
+  <circle cx="84" cy="152" r="9" fill="#247BBF"/>
+  <circle cx="84" cy="200" r="9" fill="#C08A2E"/>
+  <circle cx="84" cy="248" r="9" fill="#D9534F"/>
+  <rect x="112" y="86" width="440" height="36" rx="10" stroke="#C2D4E4" stroke-width="1.5"/>
+  <rect x="128" y="98" width="52" height="12" rx="6" fill="#2F9E6E" fill-opacity="0.22"/>
+  <rect x="192" y="101" width="238" height="6" rx="3" fill="#9DB4C9"/>
+  <rect x="112" y="134" width="440" height="36" rx="10" stroke="#C2D4E4" stroke-width="1.5"/>
+  <rect x="128" y="146" width="52" height="12" rx="6" fill="#247BBF" fill-opacity="0.22"/>
+  <rect x="192" y="149" width="196" height="6" rx="3" fill="#9DB4C9"/>
+  <rect x="398" y="149" width="116" height="6" rx="3" fill="#D3E0EC"/>
+  <rect x="112" y="182" width="440" height="36" rx="10" stroke="#C2D4E4" stroke-width="1.5"/>
+  <rect x="128" y="194" width="52" height="12" rx="6" fill="#C08A2E" fill-opacity="0.24"/>
+  <rect x="192" y="197" width="132" height="6" rx="3" fill="#9DB4C9"/>
+  <path d="M332 200h34" stroke="#C08A2E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M358 192l10 8-10 8" stroke="#C08A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="376" y="197" width="138" height="6" rx="3" fill="#D3E0EC"/>
+  <rect x="112" y="230" width="440" height="36" rx="10" stroke="#C2D4E4" stroke-width="1.5"/>
+  <rect x="128" y="242" width="52" height="12" rx="6" fill="#D9534F" fill-opacity="0.2"/>
+  <rect x="192" y="245" width="214" height="6" rx="3" fill="#9DB4C9"/>
+  <path d="M432 244l12 12M444 244l-12 12" stroke="#D9534F" stroke-width="2" stroke-linecap="round"/>
+</svg>

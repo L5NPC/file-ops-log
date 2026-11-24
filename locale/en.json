@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "File operation log",
+    "description": "Records every file operation Harness agents perform and shows it in the Web GUI. Open it from the File operations icon in the sidebar: the page lists create, modify, delete, move, copy, read, and other operations newest first, with type filters, a time-order toggle, and search over paths, commands, tools, and conversation titles. Each row names the conversation that performed the operation; click it to open that conversation. It records the agent tool calls (write, edit, apply_patch, read, present, office tools, and recognized shell file commands such as rm, mv, cp, mkdir, and redirections; on Windows, PowerShell commands such as Remove-Item, Move-Item, Copy-Item, New-Item, Set-Content, and Out-File), stores them in $DSH_HOME/plugin-data/file-ops-log/operations.jsonl, and serves the newest 2000 to the page. Shell commands are recognized by their command text, so a file operation hidden inside a script or an unusual command may not be recorded; tool calls from outside the Harness tool pipeline are not recorded. Turning the plugin off stops recording and removes the page and icon.",
+    "detail": "docs/DETAIL.md"
+  }
+}
