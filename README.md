@@ -1,5 +1,7 @@
 # File operation log
 
+[简体中文](README.zh.md) | English
+
 Records the file operations Harness agents perform and shows them in the Web GUI.
 
 ## Install
